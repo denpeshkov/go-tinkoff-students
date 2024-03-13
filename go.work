@@ -3,4 +3,5 @@ go 1.23
 use (
 	./lesson1/homework
 	./lesson2/homework
+	./lesson3/homework
 )
