@@ -4,4 +4,5 @@ use (
 	./lesson1/homework
 	./lesson2/homework
 	./lesson3/homework
+	./lesson4/homework
 )

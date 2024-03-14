@@ -10,7 +10,12 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
+	"go.uber.org/goleak"
 )
+
+func TestMain(m *testing.M) {
+	goleak.VerifyTestMain(m)
+}
 
 func Test_DirSizer(t *testing.T) {
 	ctrl := gomock.NewController(t)
