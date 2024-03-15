@@ -1,4 +1,4 @@
-module homework
+module lecture04_homework
 
 go 1.23
 
